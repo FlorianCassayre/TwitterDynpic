@@ -2,7 +2,34 @@
   "default_image": "default",
   "events":
   [
-
+    {
+      "image": "new-year",
+      "occurrence": {"type": "yearly", "from": "11-29", "to": "01-02"}
+    },
+    {
+      "image": "pi",
+      "occurrence": {"type": "yearly", "from": "03-14", "to": "03-14"}
+    },
+    {
+      "image": "april",
+      "occurrence": {"type": "yearly", "from": "04-01", "to": "04-01"}
+    },
+    {
+      "image": "france",
+      "occurrence": {"type": "yearly", "from": "05-8", "to": "05-08"}
+    },
+    {
+      "image": "music",
+      "occurrence": {"type": "yearly", "from": "06-21", "to": "06-21"}
+    },
+    {
+      "image": "france",
+      "occurrence": {"type": "yearly", "from": "07-14", "to": "07-15"}
+    },
+    {
+      "image": "france",
+      "occurrence": {"type": "yearly", "from": "11-11", "to": "11-11"}
+    }
   ],
 
 
