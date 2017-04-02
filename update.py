@@ -70,7 +70,9 @@ for candidate in candidates:
         best = candidate
 
 if best is None:
-    best = (0, config['default_image'])
+    best = (3, config['default_image'])
+
+print(best)
 
 # Twitter
 

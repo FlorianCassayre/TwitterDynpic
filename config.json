@@ -3,6 +3,16 @@
   "events":
   [
     {
+      "image": "france",
+      "occurrence": {"type": "punctual", "from": "2017-04-23", "to": "2017-04-23"}
+    },
+    {
+      "image": "france",
+      "occurrence": {"type": "punctual", "from": "2017-05-07", "to": "2017-05-07"}
+    },
+
+
+    {
       "image": "new-year",
       "occurrence": {"type": "yearly", "from": "11-29", "to": "01-02"}
     },
@@ -29,6 +39,10 @@
     {
       "image": "france",
       "occurrence": {"type": "yearly", "from": "11-11", "to": "11-11"}
+    },
+    {
+      "image": "phi",
+      "occurrence": {"type": "yearly", "from": "11-23", "to": "11-23"}
     }
   ],
 
