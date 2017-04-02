@@ -1,0 +1,28 @@
+{
+  "default_image": "default",
+  "events":
+  [
+
+  ],
+
+
+
+
+  "examples":
+  [
+    {
+      "image": "default0",
+      "occurrence": {"type": "punctual", "from": "2017-03-01", "to": "2017-04-07"}
+    },
+
+    {
+      "image": "default1",
+      "occurrence": {"type": "yearly", "from": "04-01", "to": "04-01"}
+    },
+
+    {
+      "image": "default2",
+      "occurrence": {"type": "monthly", "from": "01", "to": "01"}
+    }
+  ]
+}
