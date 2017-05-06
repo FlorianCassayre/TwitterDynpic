@@ -1,5 +1,6 @@
 __author__ = 'Florian Cassayre'
 
+import os
 import datetime
 import json
 from twython import Twython
@@ -7,7 +8,7 @@ from twython import Twython
 
 # Config
 
-with open('config.json') as data_file:
+with open(os.path.join(os.path.dirname(__file__), 'config.json')) as data_file:
     config = json.load(data_file)
 
 now = datetime.datetime.now()
@@ -76,11 +77,11 @@ print(best)
 
 # Twitter
 
-with open('credentials.json') as data_file:
+with open(os.path.join(os.path.dirname(__file__), 'credentials.json')) as data_file:
     credentials = json.load(data_file)['twitter']
 
 twitter = Twython(credentials['app_key'], credentials['app_secret'], credentials['oauth_token'], credentials['oauth_token_secret'])
 
 
-avatar = open('img/' + best[1] + '.png', 'rb')
+avatar = open(os.path.join(os.path.dirname(__file__), 'img/' + best[1] + '.png'), 'rb')
 twitter.update_profile_image(image=avatar)
