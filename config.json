@@ -26,7 +26,11 @@
     },
     {
       "image": "france",
-      "occurrence": {"type": "yearly", "from": "05-8", "to": "05-08"}
+      "occurrence": {"type": "yearly", "from": "05-08", "to": "05-08"}
+    },
+    {
+      "image": "europe",
+      "occurrence": {"type": "yearly", "from": "05-09", "to": "05-09"}
     },
     {
       "image": "music",
