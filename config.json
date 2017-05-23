@@ -10,6 +10,10 @@
       "image": "france",
       "occurrence": {"type": "punctual", "from": "2017-05-07", "to": "2017-05-07"}
     },
+    {
+      "image": "england",
+      "occurrence": {"type": "punctual", "from": "2017-05-24", "to": "2017-05-24"}
+    },
 
 
     {
